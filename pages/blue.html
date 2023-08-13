@@ -16,9 +16,9 @@
     <div id="navbar"> </div>
 
     <script>
-    $(function() {
-    $("#navbar").load("navigation2.html");
-    });
+        $.get("pages/navigation2.html", function(data) {
+            $("#navbar").html(data);
+        });
     </script>
 </body>
 </html>
