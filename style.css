@@ -35,18 +35,23 @@ body{
 }
 
 /* navigation bar */
-.navbar {
+#navbar {
     overflow: hidden;
     background-color: #000;
 }
   
-.navbar a {
+#navbar a {
     float: left;
     font-size: 16px;
     color: #63e5ff;
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color: #63e5ff;
+    color: #000;
 }
   
 .dropdown {
@@ -63,8 +68,8 @@ body{
     font-family: inherit;
     margin: 0;
 }
-  
-.navbar a:hover, .dropdown:hover .dropbtn {
+
+.dropdown:hover .dropbtn {
     background-color: #63e5ff;
     color: #000;
 }
