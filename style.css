@@ -35,12 +35,12 @@ body{
 }
 
 /* navigation bar */
-#navbar {
+.navbar {
     overflow: hidden;
     background-color: #000;
 }
   
-#navbar a {
+.navbar a {
     float: left;
     font-size: 16px;
     color: #63e5ff;
@@ -64,7 +64,7 @@ body{
     margin: 0;
 }
   
-#navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #63e5ff;
     color: #000;
 }
