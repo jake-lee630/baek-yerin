@@ -1,3 +1,4 @@
+/* fonts */
 @font-face {
     font-family: Mouvere;
     src: url("resources/fonts/MouvereBold.ttf") format('truetype'); 
@@ -10,6 +11,7 @@
     url('resources/fonts/CircularSpotifyText-Bold.otf') format('opentype');
 }
 
+/* body */
 body{
     background-color: #a1a1a1;
     font-family: 'Circular Spotify', Mouvere, 'Times New Roman';
@@ -42,7 +44,7 @@ body{
   
 .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 20px;
     color: #63e5ff;
     text-align: center;
     padding: 10px 20px;
@@ -60,7 +62,7 @@ body{
 }
   
 .dropdown .dropbtn {
-    font-size: 16px;  
+    font-size: 20px;  
     border: none;
     color: #63e5ff;
     padding: 10px 20px;
@@ -99,6 +101,7 @@ body{
     font-size: small;
 }
 
+/* Background images for respective pages */
 #home{
     background: url("resources/images/title.jpg") repeat center;
     color: #63e5ff;
@@ -153,4 +156,19 @@ body{
     color: #427032;
 }
 
+/* videos */
+.vid-block {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    display: flex;
+    justify-content: center;
+}
 
+.video {
+    position: absolute;
+    padding: 5%;
+    width: 50%;
+    height: 50%;
+}
