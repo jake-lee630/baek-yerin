@@ -44,7 +44,7 @@ body{
   
 .navbar a {
     float: left;
-    font-size: 20px;
+    font-size: 18px;
     color: #63e5ff;
     text-align: center;
     padding: 10px 20px;
@@ -62,7 +62,7 @@ body{
 }
   
 .dropdown .dropbtn {
-    font-size: 20px;  
+    font-size: 18px;
     border: none;
     color: #63e5ff;
     padding: 10px 20px;
