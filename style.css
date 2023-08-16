@@ -50,6 +50,7 @@ body{
     text-align: center;
     padding: 10px 20px;
     text-decoration: none;
+    transition: 0.3s;
 }
 
 .navbar a:hover{
@@ -70,6 +71,7 @@ body{
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    transition: 0.3s;
 }
 
 .dropdown:hover .dropbtn {
@@ -157,7 +159,8 @@ body{
 
 .container{
     display: flex;
-    justify-content: space-between ;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* videos */
@@ -169,6 +172,7 @@ body{
     height: 50%;
 }
 
+/* description sidebar */
 .description{
     padding: 5%;
     width: 30%;
@@ -177,6 +181,7 @@ body{
     line-height: 25px;
 }
 
+/* table of songs */
 .songs{
     margin: 5%;
     text-align: center;
@@ -188,7 +193,7 @@ body{
     border-color: #94f8ff;
     background: #94f8ff;
     color: #000000;
-    
+    font-size: medium;
 }
 
 .songs td, .songs th{
@@ -196,6 +201,28 @@ body{
     line-height: 35px;
 }
 
+.songs tr:first-child{
+    background: #ff9292;
+}
+
 .songs tr:nth-child(even) {
     background-color: #e4e4e4;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.container2 a{
+    align-self: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.icons{
+    margin-left: 50px;
+    text-align: center;
+    font-size: x-large;
 }
