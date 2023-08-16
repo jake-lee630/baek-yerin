@@ -13,10 +13,11 @@
 
 /* body */
 body{
-    background-color: #a1a1a1;
+    background-color: #000000;
     font-family: 'Circular Spotify', Mouvere, 'Times New Roman';
     padding: 0;
     margin: auto;
+    color: #fff;
 }
 
 /* title banner */
@@ -97,10 +98,6 @@ body{
       display: block;
 }
 
-.container{
-    text-align: center;
-    font-size: small;
-}
 
 /* Background images for respective pages */
 #home{
@@ -157,19 +154,48 @@ body{
     color: #427032;
 }
 
-/* videos */
-.vid-block {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
+
+.container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between ;
 }
 
+/* videos */
 .video {
-    position: absolute;
+    position: relative;
     padding: 5%;
+    aspect-ratio: 16/9;
     width: 50%;
     height: 50%;
+}
+
+.description{
+    padding: 5%;
+    width: 30%;
+    flex-wrap: wrap;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.songs{
+    margin: 5%;
+    text-align: center;
+    table-layout: auto;
+    width: 50%;
+    line-height: 35px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: #94f8ff;
+    background: #94f8ff;
+    color: #000000;
+    
+}
+
+.songs td, .songs th{
+    border: 1px solid black;
+    line-height: 35px;
+}
+
+.songs tr:nth-child(even) {
+    background-color: #e4e4e4;
 }
