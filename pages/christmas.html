@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../style.css">
     <link rel="shortcut icon" href="../favicon.ico" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://kit.fontawesome.com/b36daa2534.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="christmas">
@@ -23,40 +24,67 @@
     });
     </script>
 
-<div class="container2">
-    <table class="songs" cellspacing="0">
-        <tr>
-            <th>Song Name</th>
-            <th>Lyrics by</th>
-            <th>Produced by</th>
-        </tr>
-        <tr>
-            <td>"Bye Bye My Blue"</td>
-            <td>Cloud</td>
-            <td>Cloud</td>
-        </tr>
-        <tr>
-            <td>"His Ocean"</td>
-            <td>Yerin Baek</td>
-            <td>Yerin Baek</td>
-        </tr>
-        <tr>
-            <td>"Zero"</td>
-            <td>Cloud & Yerin Baek</td>
-            <td>Yerin Baek</td>
-        </tr>
-    </table>
+    <div class="container">
+        <iframe class="video" src="https://www.youtube.com/embed/IpjKwU7ZeBY" title="Love you on Christmas (live)" frameborder="0" allowfullscreen></iframe>
+        <p class="description">
+            <b>"Love you on Christmas"</b> is the second digital single by Yerin Baek. It was released on December 7, 2016, with 2 tracks:
+            <b>"Love you on Christmas" and "November Song"</b>
+        </p>
+    </div>
 
-    <div class="icons">
-        <p> Music Platforms! </p>
-        <a href="https://open.spotify.com/album/22qM69DGAvUsSyQfVh8Lgm?si=jALb26ciQHq9Ak6K2jNWyQ" target="_blank">
-            <i id="spotify" class="fa-brands fa-spotify fa-5x" style="color: #1ed760;"></i>
-        </a>
+    <div class="container2">
+        <table class="songs" cellspacing="0">
+            <tr>
+                <th>Song Name</th>
+                <th>Lyrics by</th>
+                <th>Produced by</th>
+            </tr>
+            <tr>
+                <td>"Love you on Christmas"</td>
+                <td>Yerin Baek</td>
+                <td>Yun Seokcheol & Cloud</td>
+            </tr>
+            <tr>
+                <td>"November Song"</td>
+                <td>Yerin Baek</td>
+                <td>Yerin Baek</td>
+            </tr>
+        </table>
 
-        <a href="https://music.apple.com/jp/album/bye-bye-my-blue-single/1125890995?l=en-US" target="_blank">
-            <i id="apple" class="fa-brands fa-apple fa-5x" style="color: #fc3c44;"></i>
-        </a>
-    </div>  
-</div>
+        <div class="icons">
+            <p> Music Platforms! </p>
+            <a href="https://open.spotify.com/album/1NoIGuqq1BnvyYq3re6KZY?si=WWqF5E7dS0mlmDQd4QLdLQ" target="_blank">
+                <i id="spotify" class="fa-brands fa-spotify fa-5x" style="color: #1ed760;"></i>
+            </a>
+
+            <a href="https://music.apple.com/gh/album/love-you-on-christmas-single/1698533057" target="_blank">
+                <i id="apple" class="fa-brands fa-apple fa-5x" style="color: #fc3c44;"></i>
+            </a>
+        </div>  
+    </div>
+
+    <p>"Love you on Christmas" Gallery</p>
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <img src="../resources/christmas/cover.jpg">
+        </div>
+
+        <div class="slide fade">
+            <img src="../resources/christmas/christmas.webp">
+        </div>
+
+        <div class="slide fade">
+            <img src="../resources/christmas/christmas2.webp">
+        </div>
+
+        <div class="prev">
+            <a onclick="plusSlides(-1)">&#10094;</a>
+        </div>
+        <div class="next">
+            <a onclick="plusSlides(1)">&#10095;</a>
+        </div>
+    </div>
+
+    <script src="../resources/slideshow.js"></script>
 </body>
 </html>
