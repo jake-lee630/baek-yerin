@@ -200,6 +200,7 @@ body{
 .songs td, .songs th{
     border: 1px solid black;
     line-height: 35px;
+    padding: 2px;
 }
 
 .songs tr:first-child{
