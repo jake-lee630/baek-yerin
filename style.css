@@ -182,6 +182,15 @@ body{
     line-height: 25px;
 }
 
+.description a{
+    text-decoration: none;
+    color: white;
+}
+
+.description a:hover{
+    color: #63e5ff;
+}
+
 /* table of songs */
 .songs{
     margin: 5%;
@@ -221,15 +230,16 @@ body{
     align-self: center;
     padding: 10px;
     margin: 10px;
+    color:#000;
 }
 
+/* icons */
 .icons{
     margin-left: 50px;
     text-align: center;
     font-size: x-large;
     margin-right: 50px;
 }
-
 
 /* Slideshow container */
 .slideshow-container {
