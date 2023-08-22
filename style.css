@@ -21,6 +21,9 @@ body{
     text-align: center;
 }
 
+em{
+    padding: 20px;
+}
 /* title banner */
 .titlebanner{
     display: flex;
@@ -204,6 +207,14 @@ body{
     background: #94f8ff;
     color: #000000;
     font-size: medium;
+}
+
+.songs a{
+    text-decoration: none;
+}
+
+.songs a:hover{
+    color: #FB7A96;
 }
 
 .songs td, .songs th{
