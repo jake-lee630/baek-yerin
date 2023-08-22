@@ -149,6 +149,12 @@ em{
     color: #634C60;
 }
 
+#remix{
+    background: url(resources/tellus/remix.jpg) space center #bf3822;
+    background-size: 200px;
+    color: #bf3822;
+}
+
 #tellus{
     background: url("resources/images/tellus.jpg") space center #F4E651;
     background-size: 200px;
