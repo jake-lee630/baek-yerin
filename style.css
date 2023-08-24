@@ -11,7 +11,7 @@
     url('resources/fonts/CircularSpotifyText-Bold.otf') format('opentype');
 }
 
-/* body */
+/* body and universal rules */
 body{
     background-color: #000000;
     font-family: 'Circular Spotify', Mouvere, 'Times New Roman';
@@ -23,29 +23,27 @@ body{
 
 body a{
     text-decoration: none;
-    color: #fff;
+    color: #63e5ff;
 }
 body a:hover{
-    color: #63e5ff;
+    color: #FF7D63;
 }
 
 em{
     padding: 20px;
 }
+
 /* title banner */
 .titlebanner{
     display: flex;
     background-size: auto;
     height:230px;
 }
-
-.titlebanner span{
-    background: #000;
-    font-size: larger;
-    padding: 10px 5px 5px;
-}
-    
+  
 .titlebanner h1{
+    background: #000;
+    font-size: 25px;
+    padding: 10px 5px 5px;
     margin: auto;
 }
 
@@ -69,7 +67,8 @@ em{
     background-color: #63e5ff;
     color: #000;
 }
-  
+
+/* dropwdown in navbar */
 .dropdown {
     float: left;
     overflow: hidden;
@@ -117,6 +116,11 @@ em{
 #home{
     background: url("resources/images/title.jpg") repeat center;
     color: #63e5ff;
+}
+
+#about{
+    background: url("./resources/images/about.png") repeat center;
+    color: #fff;
 }
 
 #blue{
@@ -174,13 +178,6 @@ em{
     color: #427032;
 }
 
-
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 /* videos */
 .video {
     position: relative;
@@ -197,15 +194,16 @@ em{
     flex-wrap: wrap;
     font-size: 18px;
     line-height: 25px;
+    text-align: justify-all;
 }
 
 .description a{
     text-decoration: none;
-    color: white;
+    color: #63e5ff;
 }
 
 .description a:hover{
-    color: #63e5ff;
+    color: #FF7D63;
 }
 
 /* table of songs */
@@ -245,11 +243,17 @@ em{
     background-color: #e4e4e4;
 }
 
+/* containers */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .container2{
     display: flex;
     flex-direction: row;
 }
-
 
 .container2 a{
     align-self: center;
@@ -301,6 +305,7 @@ em{
     font-size: 20px;
     text-align: center;
   }
+
 /* Next & previous buttons */
 .prev, .next {
     cursor: pointer;
@@ -317,7 +322,6 @@ em{
     order: 3;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
     background-color: #f93c3c;
 }
@@ -331,4 +335,21 @@ em{
 @keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
+}
+
+.container3{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5%;
+    align-items: center;
+}
+
+.text2{
+    max-width: 60%;
+    text-align: justify;
+    font-size: 25px;
+    padding: 15px;
+    color: #fff;
 }
