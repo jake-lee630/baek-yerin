@@ -31,6 +31,7 @@ body a:hover{
 
 em{
     padding: 20px;
+    color: white;
 }
 
 /* title banner */
@@ -55,7 +56,7 @@ em{
   
 .navbar a {
     float: left;
-    font-size: 18px;
+    font-size: 22px;
     color: #63e5ff;
     text-align: center;
     padding: 10px 20px;
@@ -75,7 +76,7 @@ em{
 }
   
 .dropdown .dropbtn {
-    font-size: 18px;
+    font-size: 22px;
     border: none;
     color: #63e5ff;
     padding: 10px 20px;
@@ -363,12 +364,20 @@ em{
 /* gallery toggles */
 .container4{
     display: flex;
+    justify-content: center;
+    margin: 25px;
 }
 
 details {
     user-select: none;
-  }
-  
+    width: 80%;
+    background-color: #1b1b1b;
+    color: #63e5ff;
+    font-size: larger;
+    font-weight: 1.2;
+    padding: 10px;
+}
+
 details>summary span.icon {
     width: 24px;
     height: 24px;
@@ -387,4 +396,19 @@ summary {
 
 summary::-webkit-details-marker {
     display: none;
+}
+
+.container5{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic{
+    max-width: 250px;
+    border: 2px solid white;
+    margin: 20px;
+
 }
